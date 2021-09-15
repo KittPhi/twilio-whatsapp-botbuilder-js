@@ -9,7 +9,7 @@
 - Activate WhatsApp
 - Popluate .env with credentials
 - run ngrok
-  ngrok http 5000
+  `ngrok http 5000`
 - Copy NGROK URL to [Twilio](https://console.twilio.com/us1/develop/sms/settings/whatsapp-sandbox?frameUrl=%2Fconsole%2Fsms%2Fwhatsapp%2Fsandbox%3Fx-target-region%3Dus1)
 - send a WhatsApp message and the Echo bot will echo back.
 
