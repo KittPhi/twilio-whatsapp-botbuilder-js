@@ -4,10 +4,10 @@
 
 ## To setup Twilio:
 
-- Setup Account
-- Register Phone
-- Activate WhatsApp
-- Popluate .env with credentials
+- Setup Twilio Account
+- Register Phone at Twilio
+- Activate Twilio WhatsApp Sandbox
+- Rename env example `mv ENV .env` and popluate .env with credentials
 - run ngrok
   `ngrok http 5000`
 - Copy NGROK URL to [Twilio](https://console.twilio.com/us1/develop/sms/settings/whatsapp-sandbox?frameUrl=%2Fconsole%2Fsms%2Fwhatsapp%2Fsandbox%3Fx-target-region%3Dus1)

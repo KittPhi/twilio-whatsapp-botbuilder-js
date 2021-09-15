@@ -1,0 +1,10 @@
+// whatsapp:<E.164>
+TWILIO_WA=+1
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+MY_NUMBER=+1
+ENDPOINT_URL=CHANGE-ME/api/whatsapp/messages
+
+
+MicrosoftAppId=
+MicrosoftAppPassword=
