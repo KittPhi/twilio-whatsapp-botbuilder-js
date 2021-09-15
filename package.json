@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-twilio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "KittPhi <Kitt.Phi@gmail.co>",
+  "license": "Vonage",
+  "dependencies": {
+    "@botbuildercommunity/adapter-twilio-whatsapp": "^1.2.0",
+    "botbuilder": "^4.14.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "twilio": "^3.67.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
