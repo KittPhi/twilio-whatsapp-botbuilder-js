@@ -17,15 +17,15 @@ CONTEXT TurnContext {
     oAuthSettings: { appId: '', appPassword: '' },
     channel: 'whatsapp',
     settings: {
-      accountSid: 'AC6e963ec1eee0a2e542d73bf08d6a3ae3',
-      authToken: '65a46494128ed97928422cd0ece5f87b',
+      accountSid: '#####',
+      authToken: '#####',
       phoneNumber: 'whatsapp:+14155238886',
       endpointUrl: 'https://kittphi.ngrok.io/api/whatsapp/messages'
     },
     client: Twilio {
-      username: 'AC6e963ec1eee0a2e542d73bf08d6a3ae3',
-      password: '65a46494128ed97928422cd0ece5f87b',
-      accountSid: 'AC6e963ec1eee0a2e542d73bf08d6a3ae3',
+      username: '#####',
+      password: '#####',
+      accountSid: '######',
       _httpClient: RequestClient {},
       edge: undefined,
       region: undefined,
@@ -89,7 +89,7 @@ CONTEXT TurnContext {
       To: 'whatsapp:+14155238886',
       NumSegments: '1',
       MessageSid: 'SMe9db689829dd83edff0c5ae512a093ad',
-      AccountSid: 'AC6e963ec1eee0a2e542d73bf08d6a3ae3',
+      AccountSid: '#####',
       From: 'whatsapp:+15754947093',
       ApiVersion: '2010-04-01'
     },
