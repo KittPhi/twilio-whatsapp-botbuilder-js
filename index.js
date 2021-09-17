@@ -15,9 +15,7 @@ app.use('/images', express.static('images'));
 const { EchoBot } = require('./bot');
 const bot = new EchoBot();
 
-const {
-  TwilioWhatsAppAdapter,
-} = require('@botbuildercommunity/adapter-twilio-whatsapp');
+const { TwilioWhatsAppAdapter } = require('./js-adapter-twilio-whatsapp');
 
 const whatsAppAdapter = new TwilioWhatsAppAdapter(
   {
@@ -34,7 +32,7 @@ const whatsAppAdapter = new TwilioWhatsAppAdapter(
 
 // WhatsApp endpoint for Twilio
 app.post('/api/whatsapp/messages', (req, res) => {
-  console.log('REQ.BODY', req.body);
+  // console.log('REQ.BODY', req.body);
   whatsAppAdapter.processActivity(req, res, async (context) => {
     console.log('CONTEXT', context);
     // Route to main dialog.
